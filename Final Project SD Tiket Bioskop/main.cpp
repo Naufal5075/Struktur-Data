@@ -4,7 +4,7 @@
 int main() {
     TicketBooking ticketBooking;
 
-    // Adding movies with their details
+    // Menambahkan detail film
     ticketBooking.addMovie("Avengers: Endgame", "2023-06-21", "Monday", { "Room 1", "Room 2" }, 50, 100, 40, 80, { "10:00", "14:00", "18:00" });
     ticketBooking.addMovie("The Lion King", "2023-06-22", "Tuesday", { "Room 3", "Room 4" }, 40, 80, 30, 60, { "11:00", "15:00", "19:00" });
     ticketBooking.addMovie("Joker", "2023-06-23", "Wednesday", { "Room 5", "Room 6" }, 45, 90, 35, 70, { "12:00", "16:00", "20:00" });
